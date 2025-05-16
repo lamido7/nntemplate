@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 
+// this form has multiple sections that needs to be sent to the respective departments
+//only the first section is visible to the user
+// the rest should be hidden and be filled by the respective departments
 const LoanClearanceForm = () => {
   const [formData, setFormData] = useState({
     fullName: "",
@@ -22,7 +25,7 @@ const LoanClearanceForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Simulate form submission
-    console.log("Veteran Data Submitted:", formData);
+    console.log("Loan Data Submitted:", formData);
     alert("Form submitted!");
   };
 

@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const SideNav = () => {
     const navStyle = {
-        width: '400px',
+        width: '250px',
         height: '100vh',
         backgroundColor: '#2c3e50',
         color: 'white',
